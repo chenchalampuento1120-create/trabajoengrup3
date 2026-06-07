@@ -81,7 +81,12 @@ public static void ejercicio2() {
     do{
         System.out.println("ingrese el numero positivo: ");
         num=sc.nextInt();
+        if (num >=0){
+            cantidad++;
+            
         }
+        
+    }
     
     
     
