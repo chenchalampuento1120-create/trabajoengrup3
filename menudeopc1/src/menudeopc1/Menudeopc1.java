@@ -144,6 +144,8 @@ public static void ejercicio10(){
     else 
     ceros++;
    }
+    System.out.println("Positivos:"+positivos);
+    System.out.println("Negativos:"+negativos);
     
     
  }
