@@ -91,10 +91,9 @@ public static void ejercicio2() {
     double promedio = (cantidad>0)?(double)suma/cantidad :0;
     
     System.out.println("cantidad: "+cantidad);
-    System.out.println("suma: "+promedio);
-    
-    
-    
+    System.out.println("suma: "+suma);
+    System.out.println("promedio: "+promedio);
+
 }
 
 // Validar que la nota ingresada esté entre 0 y 10
