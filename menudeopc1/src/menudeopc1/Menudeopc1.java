@@ -99,6 +99,8 @@ public static void ejercicio2() {
 // Validar que la nota ingresada esté entre 0 y 10
 public static void ejercicio3() {
     System.out.println("Ejercicio 3");
+    double nota;
+    
     
     
 }
