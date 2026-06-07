@@ -100,6 +100,10 @@ public static void ejercicio2() {
 public static void ejercicio3() {
     System.out.println("Ejercicio 3");
     double nota;
+    do{
+        System.out.println("ingrese nota (0-10): ");
+        nota=sc.nextDouble();
+    }while
     
     
     
