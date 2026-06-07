@@ -87,7 +87,8 @@ public static void ejercicio2() {
             
         }
         
-    }
+    }while (num>=0);
+    double promedio = (cantidad>0)?(double)suma/cantidad :0;
     
     
     
