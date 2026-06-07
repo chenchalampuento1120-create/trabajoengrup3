@@ -118,12 +118,11 @@ public static void ejercicio4(){
                 clave=sc.next();
                 if (clave.equals(clave correcta )){
                 System.out.println("bienvenido.");
+                return;
             }
+                intentos++;
             }
-            
-    
-    
-    
+ 
 }
 public static void ejercicio5(){
     System.out.println("Ejercicio 5");
