@@ -135,31 +135,29 @@ public static void ejercicio10(){
     int positivos= 0,negativos=0,ceros=0;
     
     for (int i = 1; i <= 15; i++) {
-    System.out.print("Ingrese el numero " + i + ": ");
-    int num = sc.nextInt();
-    if (num > 0) 
-    positivos++;
-    else if (num < 0) 
-    negativos++;
-    else 
-    ceros++;
-   }
-    System.out.println("Positivos:"+positivos);
-    System.out.println("Negativos:"+negativos);
-    System.out.println("Ceros:"+ceros);
-    }
+        System.out.print("Ingrese el numero " + i + ": ");
+        int num = sc.nextInt();
+        if (num > 0) 
+        positivos++;
+        else if (num < 0) 
+        negativos++;
+        else 
+        ceros++;
+       }
+        System.out.println("Positivos:"+positivos);
+        System.out.println("Negativos:"+negativos);
+        System.out.println("Ceros:"+ceros);
+        }
 public static void ejercicio11(){
     System.out.println("Ejercicio 11");
     double suma=0;
     for (int i = 1; i <= 20; i++) {
         System.out.println("Nota estudiante"+i+":");
-        
-        
+        suma+=sc.nextDouble();
     }
-    
-    
-    
+    System.out.println("Promedio:"+(suma/20));
 }
+
 public static void ejercicio12(){
     System.out.println("ejercico 12");
     
