@@ -119,7 +119,7 @@ public static void ejercicio8(){
 }
 public static void ejercicio9(){
     System.out.println("Ejercicio 9");
-    System.out.println("Ingrese un numero:");
+    System.out.println("Ingrese un numero para calcular su factorial:");
     
     int num = sc.nextInt();
     
@@ -165,7 +165,7 @@ public static void ejercicio11(){
     }
     System.out.println("Promedio:"+(suma/20));
 }
-
+// generar  secuencia fibonacci
 public static void ejercicio12(){
     System.out.println("ejercico 12");
     System.out.println("Ingrese la cantidad de terminos:");
