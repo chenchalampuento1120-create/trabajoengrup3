@@ -170,6 +170,11 @@ public static void ejercicio12(){
     System.out.println("ejercico 12");
     System.out.println("Ingrese la cantidad de terminos:");
     int n=sc.nextInt();
+    //Validar que la cantidad de términos sea mayor a cero
+    if (n <= 0) {
+    System.out.println("Ingrese una cantidad válida");
+      return;
+    }
     int a=0,b=1;
     for (int i = 1; i <= n; i++) {
         System.out.println(a+"");
@@ -188,7 +193,7 @@ public static void ejercicio12(){
 }
     
      
-}
+
      
      
 
