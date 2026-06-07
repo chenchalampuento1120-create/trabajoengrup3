@@ -160,6 +160,7 @@ public static void ejercicio11(){
 
 public static void ejercicio12(){
     System.out.println("ejercico 12");
+    System.out.println("Ingrese la cantidad de terminos:");
     
     
     
