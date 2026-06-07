@@ -78,6 +78,10 @@ public class Menudeopc1 {
 public static void ejercicio2() {
     System.out.println("Ejercicio 2");
     int num,cantidad=0,suma=0;
+    do{
+        System.out.println("ingrese el numero positivo: ");
+        num=sc.nextInt();
+        }
     
     
     
