@@ -166,6 +166,9 @@ public static void ejercicio12(){
     for (int i = 1; i <= n; i++) {
         System.out.println(a+"");
         int c= a+b;
+        a=b;
+        b=c;
+    }
         
     }
     
