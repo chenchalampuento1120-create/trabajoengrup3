@@ -169,6 +169,7 @@ public static void ejercicio12(){
         a=b;
         b=c;
     }
+    System.out.println();
         
     }
     
