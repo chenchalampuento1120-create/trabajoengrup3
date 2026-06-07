@@ -58,6 +58,7 @@ public class Menudeopc1 {
          }while (opcion != 0);
     }
     // primer ejercicio
+    // Solicitar contraseña hasta que sea correcta
     public static void ejercicio1() {
     System.out.println("Ejercicio 1");
     String claveCorrecta = "tarea";
@@ -75,16 +76,18 @@ public class Menudeopc1 {
     
     
 }
-
+//Numeros enteros positivos
 public static void ejercicio2() {
     System.out.println("Ejercicio 2");
 }
 
+// Validar que la nota ingresada esté entre 0 y 10
 public static void ejercicio3() {
     System.out.println("Ejercicio 3");
     
     
 }
+//Simular cajero automático con máximo 3 intentos
 public static void ejercicio4(){
     System.out.println("Ejercicio 4");
     
