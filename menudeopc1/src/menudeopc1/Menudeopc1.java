@@ -65,11 +65,13 @@ public class Menudeopc1 {
     String clave;
     int intentos =0;
     do {
-        System.out.println("ingrese su contraseña ");
+        System.out.println("ingrese su clave ");
         clave=sc.next();
         intentos++;
     }while (!clave.equals(claveCorrecta));
-        System.out.println("la contraseña es correcta");
+        System.out.println("la clave es correcta");
+        System.out.println("=====BIENVENIDO=======");
+        
             
    
     
