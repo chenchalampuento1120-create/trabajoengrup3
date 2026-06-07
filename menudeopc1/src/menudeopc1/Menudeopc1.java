@@ -128,8 +128,16 @@ public static void ejercicio9(){
         }
     System.out.println("factorial = "+ factorial);
             } 
+
 public static void ejercicio10(){
     System.out.println("Ejercicio 10");
+    
+    int positivos= 0,negativos=0,cero=0;
+    
+    for (int i = 1; i <= 15; i++) {
+  
+        
+    }
     
     
     
