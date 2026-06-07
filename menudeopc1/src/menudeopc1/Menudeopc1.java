@@ -68,6 +68,7 @@ public class Menudeopc1 {
         clave=sc.next();
         intentos++;
     }while (!clave.equals(claveCorrecta));
+        System.out.println("la contraseña es correcta");
             
    
     
