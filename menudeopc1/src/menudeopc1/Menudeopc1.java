@@ -103,7 +103,8 @@ public static void ejercicio3() {
     do{
         System.out.println("ingrese nota (0-10): ");
         nota=sc.nextDouble();
-    }while
+    }while (nota<0 || nota>10);
+    
     
     
     
