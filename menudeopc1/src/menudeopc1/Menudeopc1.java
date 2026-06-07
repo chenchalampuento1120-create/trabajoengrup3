@@ -162,9 +162,11 @@ public static void ejercicio11(){
     for (int i = 1; i <= 20; i++) {
         System.out.println("Nota estudiante"+i+":");
         suma+=sc.nextDouble();
+// Calcular promedio general del curso    
+        double promedio = suma / 20;
+    System.out.println("Promedio: " + promedio);
     }
-    System.out.println("Promedio:"+(suma/20));
-}
+  }
 // generar  secuencia fibonacci
 public static void ejercicio12(){
     System.out.println("ejercico 12");
