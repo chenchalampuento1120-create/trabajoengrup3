@@ -77,6 +77,10 @@ public class Menudeopc1 {
 //Numeros enteros positivos
 public static void ejercicio2() {
     System.out.println("Ejercicio 2");
+    int num,cantidad=0,suma=0;
+    
+    
+    
 }
 
 // Validar que la nota ingresada esté entre 0 y 10
