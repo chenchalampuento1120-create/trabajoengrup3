@@ -161,8 +161,11 @@ public static void ejercicio11(){
 public static void ejercicio12(){
     System.out.println("ejercico 12");
     System.out.println("Ingrese la cantidad de terminos:");
-    int num=sc.nextInt();
+    int n=sc.nextInt();
     int a=0,b=1;
+    for (int i = 1; i <= n; i++) {
+        
+    }
     
     
     
