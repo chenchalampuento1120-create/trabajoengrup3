@@ -71,12 +71,8 @@ public class Menudeopc1 {
     }while (!clave.equals(claveCorrecta));
         System.out.println("la clave es correcta");
         System.out.println("=====BIENVENIDO=======");
-        
-            
-   
-    
-    
-    
+        System.out.println("Numero de intentos: "+intentos);
+
 }
 //Numeros enteros positivos
 public static void ejercicio2() {
