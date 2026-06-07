@@ -150,7 +150,12 @@ public static void ejercicio10(){
     }
 public static void ejercicio11(){
     System.out.println("Ejercicio 11");
-    
+    double suma=0;
+    for (int i = 1; i <= 20; i++) {
+        System.out.println("Nota estudiante"+i+":");
+        
+        
+    }
     
     
     
