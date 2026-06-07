@@ -33,9 +33,9 @@ public class Menudeopc1 {
          System.out.println("10. numeros positivos negativos y ceros");
          System.out.println("11. calificaciones de 20 estudiantes");
          System.out.println("12. serie de fibonacci");
-         System.out.println("13. Mayor y menor de 10 números");
+         System.out.println("13. Mayor y menor de 10 numeros");
          System.out.println("14. Suma pares del 1 al 200");
-         System.out.println("15. Número primo");
+         System.out.println("15. Numero primo");
          System.out.println("0. salir");
          
          opcion = sc.nextInt();
@@ -235,8 +235,14 @@ public static void ejercicio13(){
     
        
 }
-public static void ejercico14(){
+public static void ejercicio14(){
     System.out.println("ejercicio 14");
+    
+    
+    
+}
+public static void ejercicio15(){
+    System.out.println("ejercicio 15");
     
     
     
