@@ -60,6 +60,8 @@ public class Menudeopc1 {
     // primer ejercicio
     public static void ejercicio1() {
     System.out.println("Ejercicio 1");
+    String claveCorrecta = "tarea";
+    String clave;
     
     
     
