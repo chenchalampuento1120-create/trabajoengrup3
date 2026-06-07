@@ -122,7 +122,13 @@ public static void ejercicio9(){
     System.out.println("Ingrese un numero:");
     
     int num = sc.nextInt();
-      long factorial = 1;
+    
+    if(num < 0){
+        
+    System.out.println("No se puede calcular el factorial de un numero negativo");
+        return;
+    }
+    long factorial = 1;
     for (int i = 1; i <= num; i++) {
             factorial *= i;
         }
