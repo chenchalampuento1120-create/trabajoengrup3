@@ -62,6 +62,8 @@ public class Menudeopc1 {
     System.out.println("Ejercicio 1");
     String claveCorrecta = "tarea";
     String clave;
+    int intentos =0;
+   
     
     
     
