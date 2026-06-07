@@ -114,12 +114,24 @@ public static void ejercicio9(){
 } 
 public static void ejercicio10(){
     System.out.println("Ejercicio 10");
+    
+    
+    
+    
 }
 public static void ejercicio11(){
     System.out.println("Ejercicio 11");
+    
+    
+    
+    
 }
 public static void ejercicio12(){
     System.out.println("ejercico 12");
+    
+    
+    
+    
 }
     
      
