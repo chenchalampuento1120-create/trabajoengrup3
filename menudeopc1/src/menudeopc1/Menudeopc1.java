@@ -125,12 +125,8 @@ public static void ejercicio9(){
     for (int i = 1; i <= num; i++) {
             factorial *= i;
         }
-            
-    
-    
-    
-    
-} 
+    System.out.println("factorial = "+ factorial);
+            } 
 public static void ejercicio10(){
     System.out.println("Ejercicio 10");
     
