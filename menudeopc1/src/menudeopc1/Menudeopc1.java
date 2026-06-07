@@ -33,6 +33,9 @@ public class Menudeopc1 {
          System.out.println("10. numeros positivos negativos y ceros");
          System.out.println("11. calificaciones de 20 estudiantes");
          System.out.println("12. serie de fibonacci");
+         System.out.println("13. Mayor y menor de 10 números");
+         System.out.println("14. Suma pares del 1 al 200");
+         System.out.println("15. Número primo");
          System.out.println("0. salir");
          
          opcion = sc.nextInt();
@@ -51,6 +54,9 @@ public class Menudeopc1 {
              case 10 -> ejercicio10();
              case 11 -> ejercicio11();
              case 12 -> ejercicio12();
+             case 13 -> ejercicio13();
+             case 14 -> ejercicio14();
+             case 15 -> ejercicio15();
              case 0 -> System.out.println("programa finalizado. ");
              default -> System.out.println("opcion invalida ingrese denuevo....");
          }
@@ -111,6 +117,7 @@ public static void ejercicio3() {
 public static void ejercicio4(){
     System.out.println("Ejercicio 4");
     String clavecorrecta= "123456";
+            
     String clave;
     int intentos =0;
             while(intentos<3){
@@ -221,6 +228,19 @@ public static void ejercicio12(){
     System.out.println();
         
     }
+public static void ejercicio13(){
+    System.out.println("ejercicio 13");
+    
+    
+    
+       
+}
+public static void ejercico14(){
+    System.out.println("ejercicio 14");
+    
+    
+    
+}
     
     
     
