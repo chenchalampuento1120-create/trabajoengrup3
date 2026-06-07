@@ -128,6 +128,7 @@ public static void ejercicio9(){
     System.out.println("No se puede calcular el factorial de un numero negativo");
         return;
     }
+    //calcular factorial
     long factorial = 1;
     for (int i = 1; i <= num; i++) {
             factorial *= i;
@@ -154,6 +155,7 @@ public static void ejercicio10(){
         System.out.println("Negativos:"+negativos);
         System.out.println("Ceros:"+ceros);
         }
+//calcular el promedio de 20 estudiantes 
 public static void ejercicio11(){
     System.out.println("Ejercicio 11");
     double suma=0;
