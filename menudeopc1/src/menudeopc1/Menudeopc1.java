@@ -108,6 +108,15 @@ public static void ejercicio8(){
 }
 public static void ejercicio9(){
     System.out.println("Ejercicio 9");
+    System.out.println("Ingrese un numero:");
+    
+    int num = sc.nextInt();
+      long factorial = 1;
+    for (int i = 1; i <= num; i++) {
+            factorial *= i;
+        }
+            
+    
     
     
     
@@ -129,12 +138,12 @@ public static void ejercicio11(){
 public static void ejercicio12(){
     System.out.println("ejercico 12");
     
-    System.out.println("Liliana");
+    
     
     
     
 }
-   
+    
      
 }
      
