@@ -116,6 +116,7 @@ public static void ejercicio4(){
             while(intentos<3){
                 System.out.println("ingrese su clave: ");
                 clave=sc.next();
+                if (clave.equals(clave correcta )){
             }
             
     
