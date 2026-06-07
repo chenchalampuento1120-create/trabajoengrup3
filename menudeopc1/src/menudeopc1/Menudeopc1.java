@@ -83,6 +83,7 @@ public static void ejercicio2() {
         num=sc.nextInt();
         if (num >=0){
             cantidad++;
+            suma +=num;
             
         }
         
