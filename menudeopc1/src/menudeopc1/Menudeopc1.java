@@ -117,6 +117,8 @@ public static void ejercicio4(){
                 System.out.println("ingrese su clave: ");
                 clave=sc.next();
                 if (clave.equals(clave correcta )){
+                System.out.println("bienvenido.");
+            }
             }
             
     
