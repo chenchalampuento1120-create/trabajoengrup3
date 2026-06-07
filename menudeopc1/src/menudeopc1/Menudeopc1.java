@@ -104,10 +104,8 @@ public static void ejercicio3() {
         System.out.println("ingrese nota (0-10): ");
         nota=sc.nextDouble();
     }while (nota<0 || nota>10);
-    
-    
-    
-    
+    System.out.println("Nota valida:"+nota);
+  
 }
 //Simular cajero automático con máximo 3 intentos
 public static void ejercicio4(){
