@@ -63,6 +63,12 @@ public class Menudeopc1 {
     String claveCorrecta = "tarea";
     String clave;
     int intentos =0;
+    do {
+        System.out.println("ingrese su contraseña ");
+        clave=sc.next();
+        intentos++;
+    }while (!clave.equals(claveCorrecta));
+            
    
     
     
