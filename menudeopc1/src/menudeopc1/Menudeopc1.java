@@ -110,19 +110,20 @@ public static void ejercicio3() {
 //Simular cajero automático con máximo 3 intentos
 public static void ejercicio4(){
     System.out.println("Ejercicio 4");
-    String clavecorrecta = "123456"
-            String clave;
-            int intentos =0;
+    String clavecorrecta= "123456";
+    String clave;
+    int intentos =0;
             while(intentos<3){
                 System.out.println("ingrese su clave: ");
                 clave=sc.next();
-                if (clave.equals(clave correcta )){
+                
+                if (clave.equals(clavecorrecta )){
                 System.out.println("bienvenido.");
                 return;
             }
                 intentos++;
             }
- 
+            System.out.println("Acceso Bloqueado");
 }
 public static void ejercicio5(){
     System.out.println("Ejercicio 5");
