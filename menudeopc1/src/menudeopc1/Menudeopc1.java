@@ -348,7 +348,7 @@ public static void ejercicio14(){
 public static void ejercicio15(){
     System.out.println("ejercicio 15");
     System.out.print("Ingrese un numero: ");
- // 1. Creamos el objeto Scanner (en minúsculas)
+ //  Creamos el objeto Scanner (en minúsculas)
     Scanner sc = new Scanner(System.in); 
  // Usamos el mismo nombre
     int num=sc.nextInt();
