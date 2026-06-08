@@ -193,7 +193,7 @@ public static void ejercicio7(){
 
     do {
 
-        System.out.println("Ingrese un numero:");
+        System.out.println("Digite un numero positivo:");
         numero = leer.nextInt();
 
         if (numero >= 0) {
