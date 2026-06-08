@@ -104,6 +104,16 @@ public static void ejercicio5(){
         numero = leer.nextInt();
 
         if (numero != 0) {
+
+            if (numero % 2 == 0) {
+                pares++;
+            } else {
+                impares++;
+            }
+
+        }
+
+    } while (numero != 0);
     
 }
 public static void ejercicio6(){
