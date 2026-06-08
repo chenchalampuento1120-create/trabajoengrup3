@@ -277,7 +277,10 @@ public static void ejercicio15(){
         if (numero <= 1) {
             primo = false;
         } else {
-            for (int i = 2; i < numero; i++) 
+            for (int i = 2; i < numero; i++) {
+                if (numero % i == 0) {
+                    primo = false;
+                    break;
     
 
     
