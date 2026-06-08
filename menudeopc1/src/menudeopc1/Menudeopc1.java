@@ -205,7 +205,7 @@ public static void ejercicio7(){
     System.out.println("Se ingresaron " + contadornumeros + " numeros positivos.");
 
 }
-
+//Tabla de multiplicar del 1 al 20
 public static void ejercicio8(){
     System.out.println("Ejercico 8");
     Scanner leer = new Scanner(System.in);
