@@ -135,17 +135,13 @@ public static void ejercicio4(){
 //Contador de numeros pares e impares
 public static void ejercicio5(){
     System.out.println("Ejercicio 5");
-    
     Scanner leer = new Scanner(System.in);
-
     int numero;
     int pares = 0;
     int impares = 0;
     do {
-
         System.out.println("Ingrese un numero:");
         numero = leer.nextInt();
-
         if (numero != 0) {
 
             if (numero % 2 == 0) {
@@ -153,9 +149,7 @@ public static void ejercicio5(){
             } else {
                 impares++;
             }
-
         }
-
     } while (numero != 0);
 
     System.out.println("Cantidad de pares: " + pares);
