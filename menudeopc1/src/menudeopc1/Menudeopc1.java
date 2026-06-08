@@ -33,6 +33,9 @@ public class Menudeopc1 {
          System.out.println("10. numeros positivos negativos y ceros");
          System.out.println("11. calificaciones de 20 estudiantes");
          System.out.println("12. serie de fibonacci");
+         System.out.println("13. Mayor y menor de 10 numeros");
+         System.out.println("14. Suma pares del 1 al 200");
+         System.out.println("15. Numero primo");
          System.out.println("0. salir");
          
          opcion = sc.nextInt();
@@ -51,44 +54,83 @@ public class Menudeopc1 {
              case 10 -> ejercicio10();
              case 11 -> ejercicio11();
              case 12 -> ejercicio12();
-             case 0 -> System.out.println("programa finalizado. ");
+             case 13 -> ejercicio13();
+             case 14 -> ejercicio14();
+             case 15 -> ejercicio15();
+             case 0 -> System.out.println("programa finalizado , muchas gracias por usar nuestro programa ");
              default -> System.out.println("opcion invalida ingrese denuevo....");
          }
             
          }while (opcion != 0);
     }
     // primer ejercicio
+    // Solicitar contraseña hasta que sea correcta
     public static void ejercicio1() {
     System.out.println("Ejercicio 1");
     String claveCorrecta = "tarea";
     String clave;
     int intentos =0;
     do {
-        System.out.println("ingrese su contraseña ");
+        System.out.println("ingrese su clave ");
         clave=sc.next();
         intentos++;
     }while (!clave.equals(claveCorrecta));
-            
-   
-    
-    
-    
-}
+        System.out.println("la clave es correcta");
+        System.out.println("=====BIENVENIDO=======");
+        System.out.println("Numero de intentos: "+intentos);
 
+}
+//Numeros enteros positivos
 public static void ejercicio2() {
     System.out.println("Ejercicio 2");
+    int num,cantidad=0,suma=0;
+    do{
+        System.out.println("ingrese el numero positivo: ");
+        num=sc.nextInt();
+        if (num >=0){
+            cantidad++;
+            suma +=num;
+            
+        }
+        
+    }while (num>=0);
+    double promedio = (cantidad>0)?(double)suma/cantidad :0;
+    
+    System.out.println("cantidad: "+cantidad);
+    System.out.println("suma: "+suma);
+    System.out.println("promedio: "+promedio);
+
 }
 
+// Validar que la nota ingresada esté entre 0 y 10
 public static void ejercicio3() {
     System.out.println("Ejercicio 3");
-    
-    
+    double nota;
+    do{
+        System.out.println("ingrese nota (0-10): ");
+        nota=sc.nextDouble();
+    }while (nota<0 || nota>10);
+    System.out.println("Nota valida:"+nota);
+  
 }
+//Simular cajero automático con máximo 3 intentos
 public static void ejercicio4(){
     System.out.println("Ejercicio 4");
-    
-    
-    
+    String clavecorrecta= "123456";
+            
+    String clave;
+    int intentos =0;
+            while(intentos<3){
+                System.out.println("ingrese su clave: ");
+                clave=sc.next();
+                
+                if (clave.equals(clavecorrecta )){
+                System.out.println("bienvenido.");
+                return;
+            }
+                intentos++;
+            }
+            System.out.println("Acceso Bloqueado");
 }
 public static void ejercicio5(){
     System.out.println("Ejercicio 5");
@@ -199,35 +241,123 @@ public static void ejercicio8(){
 
 public static void ejercicio9(){
     System.out.println("Ejercicio 9");
-    System.out.println("Ingrese un numero:");
+    System.out.println("Ingrese un numero para calcular su factorial:");
     
     int num = sc.nextInt();
-      long factorial = 1;
+    
+    if(num < 0){
+        
+    System.out.println("No se puede calcular el factorial de un numero negativo");
+        return;
+    }
+    //calcular factorial
+    long factorial = 1;
     for (int i = 1; i <= num; i++) {
             factorial *= i;
         }
-            
-    
-    
-    
-    
-} 
+    System.out.println("factorial = "+ factorial);
+            } 
+
 public static void ejercicio10(){
     System.out.println("Ejercicio 10");
     
+    int positivos= 0,negativos=0,ceros=0;
     
-    
-    
-}
+    for (int i = 1; i <= 15; i++) {
+        System.out.print("Ingrese el numero " + i + ": ");
+        int num = sc.nextInt();
+        if (num > 0) 
+        positivos++;
+        else if (num < 0) 
+        negativos++;
+        else 
+        ceros++;
+       }
+        System.out.println("Positivos:"+positivos);
+        System.out.println("Negativos:"+negativos);
+        System.out.println("Ceros:"+ceros);
+        }
+//calcular el promedio de 20 estudiantes 
 public static void ejercicio11(){
     System.out.println("Ejercicio 11");
+    double suma=0;
+    for (int i = 1; i <= 20; i++) {
+        System.out.println("Nota estudiante"+i+":");
+        suma+=sc.nextDouble();
+// Calcular promedio general del curso    
+        double promedio = suma / 20;
+    System.out.println("Promedio: " + promedio);
+    }
+  }
+// generar  secuencia fibonacci
+public static void ejercicio12(){
+    System.out.println("ejercico 12");
+    System.out.println("Ingrese la cantidad de terminos:");
+    int n=sc.nextInt();
+    //Validar que la cantidad de términos sea mayor a cero
+    if (n <= 0) {
+    System.out.println("Ingrese una cantidad válida");
+      return;
+    }
+    int a=0,b=1;
+    for (int i = 1; i <= n; i++) {
+        System.out.println(a+"");
+        int c= a+b;
+        a=b;
+        b=c;
+    }
+    System.out.println();
+        
+    }
+public static void ejercicio13(){
     
+        Scanner entrada = new Scanner(System.in);
+
+                     int numero, mayor, menor;
+
+        System.out.print("Ingrese el número 1: ");
+        numero = entrada.nextInt();
+
+        mayor = numero;
+        menor = numero;
+
+        for (int i = 2; i <= 10; i++) {
+            System.out.print("Ingrese el número " + i + ": ");
+            numero = entrada.nextInt();
+
+            if (numero > mayor) {
+                mayor = numero;
+            }
+
+            if (numero < menor) {
+                menor = numero;
+            }
+        }
+
+        System.out.println("\nEl número mayor es: " + mayor);
+        System.out.println("El número menor es: " + menor);
+
+        entrada.close();
+    }
+
+
+        
+
+        
+    
+
+ public static void ejercicio14(){
+    System.out.println("ejercicio 14");
     
     
     
 }
-public static void ejercicio12(){
-    System.out.println("ejercico 12");
+public static void ejercicio15(){
+    System.out.println("ejercicio 15");
+    
+    
+    
+}
     
     
     
@@ -236,7 +366,7 @@ public static void ejercicio12(){
 }
     
      
-}
+
      
      
 
