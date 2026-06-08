@@ -129,6 +129,12 @@ public static void ejercicio6(){
     double venta;
     double total = 0;
     int cantidadVentas = 0;
+
+    do {
+
+        System.out.println("Ingrese una venta:");
+        venta = leer.nextDouble();
+
 }
 public static void ejercicio7(){
     System.out.println("Ejercicio 7");
