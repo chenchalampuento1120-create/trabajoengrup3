@@ -163,21 +163,21 @@ public static void ejercicio6(){
 
     Scanner leer = new Scanner(System.in);
 
-    double venta;
+    double montoventa;
     double total = 0;
     int cantidadVentas = 0;
 
     do {
 
         System.out.println("Ingrese una venta:");
-        venta = leer.nextDouble();
+        montoventa = leer.nextDouble();
 
-        if (venta != 0) {
-            total = total + venta;
+        if (montoventa != 0) {
+            total = total + montoventa;
             cantidadVentas++;
         }
 
-    } while (venta != 0);
+    } while (montoventa != 0);
 
     System.out.println("Total vendido: " + total);
     System.out.println("Cantidad de ventas: " + cantidadVentas);
