@@ -246,6 +246,10 @@ public static void ejercicio13(){
 
             if (numero > mayor) {
                 mayor = numero;
+            }
+
+            if (numero < menor) {
+
 
         
 
