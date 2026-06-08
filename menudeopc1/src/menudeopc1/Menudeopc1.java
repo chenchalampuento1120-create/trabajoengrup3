@@ -132,6 +132,7 @@ public static void ejercicio4(){
             }
             System.out.println("Acceso Bloqueado");
 }
+//Contador de numeros pares e impares
 public static void ejercicio5(){
     System.out.println("Ejercicio 5");
     
