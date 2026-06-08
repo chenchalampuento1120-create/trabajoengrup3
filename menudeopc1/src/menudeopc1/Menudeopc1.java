@@ -212,7 +212,7 @@ public static void ejercicio8(){
 
     int numero;
 
-    System.out.println("=== TABLA DE MULTIPLICAR ===");
+    System.out.println("--- TABLA DEL Numero --");
 
     do {
 
