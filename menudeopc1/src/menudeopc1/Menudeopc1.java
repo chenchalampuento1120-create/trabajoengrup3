@@ -229,48 +229,44 @@ public static void ejercicio12(){
         
     }
 public static void ejercicio13(){
-    
-        Scanner entrada = new Scanner(System.in);
-
-                     int numero, mayor, menor;
-
-        System.out.print("Ingrese el número 1: ");
-        numero = entrada.nextInt();
-
-        mayor = numero;
-        menor = numero;
-
-        for (int i = 2; i <= 10; i++) {
-            System.out.print("Ingrese el número " + i + ": ");
+    System.out.println("ejercicio 13");
+    try (Scanner entrada = new Scanner(System.in)) {
+            int numero, mayor, menor;
+            System.out.print("Ingrese el número 1: ");
             numero = entrada.nextInt();
+            mayor = numero;
+            menor = numero;
+            for (int i = 2; i <= 10; i++) {
+                System.out.print("Ingrese el número " + i + ": ");
+                numero = entrada.nextInt();
+                
+                if (numero > mayor) {
+                    mayor = numero;
+                }
+                
+                if (numero < menor) {
+                    menor = numero;
+                }
+            }   System.out.println("\nEl número mayor es: " + mayor);
+            System.out.println("El número menor es: " + menor);
+        }
+    }
+public static void ejercicio14(){
+    System.out.println("ejercicio 14");
+      int suma = 0;
 
-            if (numero > mayor) {
-                mayor = numero;
-            }
-
-            if (numero < menor) {
-                menor = numero;
-            }
+        for (int i = 2; i <= 200; i += 2) {
+            suma += i;
         }
 
-        System.out.println("\nEl número mayor es: " + mayor);
-        System.out.println("El número menor es: " + menor);
-
-        entrada.close();
+        System.out.println("La suma de los números pares entre 1 y 200 es: " + suma);
     }
-
-
-        
-
-        
-    
-
- public static void ejercicio14(){
-    System.out.println("ejercicio 14");
-    
-    
-    
 }
+
+    
+    
+    
+
 public static void ejercicio15(){
     System.out.println("ejercicio 15");
     
