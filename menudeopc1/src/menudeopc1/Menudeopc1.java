@@ -57,7 +57,7 @@ public class Menudeopc1 {
              case 13 -> ejercicio13();
              case 14 -> ejercicio14();
              case 15 -> ejercicio15();
-             case 0 -> System.out.println("programa finalizado. ");
+             case 0 -> System.out.println("programa finalizado , muchas gracias por usar nuestro programa ");
              default -> System.out.println("opcion invalida ingrese denuevo....");
          }
             
