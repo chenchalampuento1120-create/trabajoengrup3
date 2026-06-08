@@ -181,6 +181,7 @@ public static void ejercicio6(){
 
     System.out.println("Total vendido: " + total);
     System.out.println("Cantidad de ventas: " + cantidadVentas);
+    System.out.println("***-Registro finalizado-***");
 }
 
 public static void ejercicio7(){
