@@ -98,6 +98,12 @@ public static void ejercicio5(){
     int numero;
     int pares = 0;
     int impares = 0;
+    do {
+
+        System.out.println("Ingrese un numero:");
+        numero = leer.nextInt();
+
+        if (numero != 0) {
     
 }
 public static void ejercicio6(){
