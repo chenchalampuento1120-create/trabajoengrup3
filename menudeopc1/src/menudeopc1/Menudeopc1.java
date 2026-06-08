@@ -239,12 +239,6 @@ public static void ejercicio8(){
     
     
 }
-public static void ejercicio8(){
-    System.out.println("Ejercico 8");
-    
-    
-    
-}
 public static void ejercicio9(){
     System.out.println("Ejercicio 9");
     System.out.println("Ingrese un numero para calcular su factorial:");
@@ -353,34 +347,11 @@ public static void ejercicio14(){
 
 public static void ejercicio15(){
     System.out.println("ejercicio 15");
-        Scanner leer = new Scanner(System.in);
-
-        int numero;
-        boolean primo = true;
-
-        System.out.print("Ingrese un número entero: ");
-        numero = leer.nextInt();
-
-        if (numero <= 1) {
-            primo = false;
-        } else {
-            for (int i = 2; i < numero; i++) {
-                if (numero % i == 0) {
-                    primo = false;
-                    break;
-                }
-            }
-        }
-
-        if (primo) {
-            System.out.println("El número " + numero + " es primo.");
-        } else {
-            System.out.println("El número " + numero + " no es primo.");
-        }
-    }
-
+    System.out.print("Ingrese un numero: ");
+ // 1. Creamos el objeto Scanner (en minúsculas)
+    Scanner sc = new Scanner(System.in); 
     
-     
+}
 
      
      
