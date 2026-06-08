@@ -159,10 +159,12 @@ public static void ejercicio5(){
 
     
 }
+//Ventas diarias
 public static void ejercicio6(){
     System.out.println("Ejercicio 6");
 
     Scanner leer = new Scanner(System.in);
+    double ventaMayor = 0;
     double montoventa;
     double total = 0;
     int cantidadVentas = 0;
@@ -175,12 +177,18 @@ public static void ejercicio6(){
         if (montoventa != 0) {
             total = total + montoventa;
             cantidadVentas++;
+            
+            if(montoventa > ventaMayor){
+                ventaMayor = montoventa;
+            }
+            System.out.println("Venta registrada correctamente mi KING");
         }
 
     } while (montoventa != 0);
 
     System.out.println("Total vendido: " + total);
     System.out.println("Cantidad de ventas: " + cantidadVentas);
+    System.out.println("La venta Mayor fue de: $" + ventaMayor);
     System.out.println("***-Registro finalizado-***");
     
     
