@@ -239,6 +239,8 @@ public static void ejercicio13(){
         mayor = numero;
         menor = numero;
         
+        for (int i = 2; i <= 10; i++) {
+        
 
         
     
