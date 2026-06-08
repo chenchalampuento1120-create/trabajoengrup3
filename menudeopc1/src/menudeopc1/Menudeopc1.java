@@ -243,6 +243,8 @@ public static void ejercicio13(){
                         System.out.print("Ingrese el número " + i + ": ");
                                     numero = entrada.nextInt();
                                     if (numero > mayor) {
+                                                        mayor = numero;
+                                    }
         }
         
 
