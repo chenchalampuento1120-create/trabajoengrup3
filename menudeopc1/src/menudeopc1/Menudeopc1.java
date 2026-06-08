@@ -253,11 +253,12 @@ public static void ejercicio13(){
     }
 public static void ejercicio14(){
     System.out.println("ejercicio 14");
-      int suma = 0;
+    int suma = 0;
 
-       for (int i = 2; i <= 200; i += 2) {
+        for (int i = 2; i <= 200; i += 2) {
+            suma += i;
+     
 
-    
     
     
 
