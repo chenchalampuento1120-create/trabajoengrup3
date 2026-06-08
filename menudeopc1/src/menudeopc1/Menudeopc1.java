@@ -162,7 +162,12 @@ public static void ejercicio7(){
             contador++;
         }
 
+    } while (numero >= 0);
+
+    System.out.println("Se ingresaron " + contador + " numeros positivos.");
+
 }
+
 public static void ejercicio8(){
     System.out.println("Ejercico 8");
     
