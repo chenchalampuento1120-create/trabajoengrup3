@@ -152,6 +152,12 @@ public static void ejercicio7(){
 
     int numero;
     int contador = 0;
+
+    do {
+
+        System.out.println("Ingrese un numero:");
+        numero = leer.nextInt();
+
 }
 public static void ejercicio8(){
     System.out.println("Ejercico 8");
