@@ -123,10 +123,12 @@ public static void ejercicio5(){
 
 public static void ejercicio6(){
     System.out.println("Ejercicio 6");
-    
-    
-    
-    
+
+    Scanner leer = new Scanner(System.in);
+
+    double venta;
+    double total = 0;
+    int cantidadVentas = 0;
 }
 public static void ejercicio7(){
     System.out.println("Ejercicio 7");
