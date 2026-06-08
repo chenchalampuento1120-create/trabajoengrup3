@@ -189,7 +189,7 @@ public static void ejercicio7(){
     Scanner leer = new Scanner(System.in);
 
     int numero;
-    int contador = 0;
+    int contadornumeros = 0;
 
     do {
 
@@ -197,12 +197,12 @@ public static void ejercicio7(){
         numero = leer.nextInt();
 
         if (numero >= 0) {
-            contador++;
+            contadornumeros++;
         }
 
     } while (numero >= 0);
 
-    System.out.println("Se ingresaron " + contador + " numeros positivos.");
+    System.out.println("Se ingresaron " + contadornumeros + " numeros positivos.");
 
 }
 
