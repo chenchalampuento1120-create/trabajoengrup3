@@ -180,6 +180,11 @@ public static void ejercicio8(){
 
         System.out.print("Ingrese un numero positivo: ");
         numero = leer.nextInt();
+        
+        if (numero <= 0) {
+            System.out.println("Error: ingrese un numero positivo");
+        }
+
 }
 public static void ejercicio9(){
     System.out.println("Ejercicio 9");
