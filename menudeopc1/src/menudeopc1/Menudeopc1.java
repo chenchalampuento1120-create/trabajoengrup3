@@ -234,6 +234,7 @@ public static void ejercicio13(){
 
         int numero, mayor, menor;
         System.out.print("Ingrese el número 1: ");
+        numero = entrada.nextInt();
         
 
         
