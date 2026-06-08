@@ -270,7 +270,9 @@ public static void ejercicio15(){
 
         int numero;
         boolean primo = true;
-    
+
+        System.out.print("Ingrese un número entero: ");
+        numero = leer.nextInt();
     
     
     
