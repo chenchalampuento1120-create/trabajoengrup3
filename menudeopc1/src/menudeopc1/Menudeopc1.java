@@ -281,6 +281,12 @@ public static void ejercicio15(){
                 if (numero % i == 0) {
                     primo = false;
                     break;
+                }
+            }
+        }
+
+        if (primo) {
+            System.out.println("El número " + numero + " es primo.");
     
 
     
