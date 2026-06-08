@@ -287,7 +287,10 @@ public static void ejercicio15(){
 
         if (primo) {
             System.out.println("El número " + numero + " es primo.");
-    
+        } else {
+            System.out.println("El número " + numero + " no es primo.");
+        }
+    }
 
     
      
