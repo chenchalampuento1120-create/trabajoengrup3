@@ -230,11 +230,11 @@ public static void ejercicio12(){
     }
 public static void ejercicio13(){
     System.out.println("ejercicio 13");
-    
-    
-    
-       
-}
+
+        Scanner leer = new Scanner(System.in);
+
+           
+
 public static void ejercicio14(){
     System.out.println("ejercicio 14");
     
