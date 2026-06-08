@@ -93,7 +93,11 @@ public static void ejercicio4(){
 public static void ejercicio5(){
     System.out.println("Ejercicio 5");
     
-    
+    Scanner leer = new Scanner(System.in);
+
+    int numero;
+    int pares = 0;
+    int impares = 0;
     
 }
 public static void ejercicio6(){
