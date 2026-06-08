@@ -237,6 +237,7 @@ public static void ejercicio13(){
         numero = entrada.nextInt();
         
         mayor = numero;
+        menor = numero;
         
 
         
