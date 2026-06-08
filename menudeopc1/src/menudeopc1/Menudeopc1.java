@@ -113,7 +113,7 @@ public static void ejercicio3() {
     System.out.println("Nota valida:"+nota);
   
 }
-//Simular cajero automático con máximo 3 intentos
+//Simular cajero automatico con maximo 3 intentos
 public static void ejercicio4(){
     System.out.println("Ejercicio 4");
     String clavecorrecta= "123456";
@@ -226,7 +226,7 @@ public static void ejercicio8(){
 
     } while (numero <= 0);
 
-        System.out.println("\nTabla del " + numero);
+        System.out.println("\n Tabla del " + numero);
 
     for (int i = 1; i <= 20; i++) {
 
@@ -295,9 +295,9 @@ public static void ejercicio12(){
     System.out.println("ejercico 12");
     System.out.println("Ingrese la cantidad de terminos:");
     int n=sc.nextInt();
-    //Validar que la cantidad de términos sea mayor a cero
+    //Validar que la cantidad de terminos sea mayor a cero
     if (n <= 0) {
-    System.out.println("Ingrese una cantidad válida");
+    System.out.println("Ingrese una cantidad valida");
       return;
     }
     int a=0,b=1;
@@ -314,12 +314,12 @@ public static void ejercicio13(){
     System.out.println("ejercicio 13");
     try (Scanner entrada = new Scanner(System.in)) {
             int numero, mayor, menor;
-            System.out.print("Ingrese el número 1: ");
+            System.out.print("Ingrese el numero 1: ");
             numero = entrada.nextInt();
             mayor = numero;
             menor = numero;
             for (int i = 2; i <= 10; i++) {
-                System.out.print("Ingrese el número " + i + ": ");
+                System.out.print("Ingrese el numero " + i + ": ");
                 numero = entrada.nextInt();
                 
                 if (numero > mayor) {
@@ -329,8 +329,8 @@ public static void ejercicio13(){
                 if (numero < menor) {
                     menor = numero;
                 }
-            }   System.out.println("\nEl número mayor es: " + mayor);
-            System.out.println("El número menor es: " + menor);
+            }   System.out.println("El numero mayor es: " + mayor);
+            System.out.println("El numero menor es: " + menor);
         }
     }
 
@@ -342,7 +342,7 @@ public static void ejercicio14(){
             suma += i;
         }
 
-        System.out.println("La suma de los números pares entre 1 y 200 es: " + suma);
+        System.out.println("La suma de los numeros pares entre 1 y 200 es: " + suma);
     
 }
     
@@ -350,7 +350,7 @@ public static void ejercicio14(){
 public static void ejercicio15(){
     System.out.println("ejercicio 15");
     System.out.print("Ingrese un numero: ");
- //  Creamos el objeto Scanner (en minúsculas)
+ //  Creamos el objeto Scanner (en minusculas)
     Scanner sc = new Scanner(System.in); 
  // Usamos el mismo nombre
     int num=sc.nextInt();
