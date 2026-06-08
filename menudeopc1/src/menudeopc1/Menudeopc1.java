@@ -135,6 +135,12 @@ public static void ejercicio6(){
         System.out.println("Ingrese una venta:");
         venta = leer.nextDouble();
 
+        if (venta != 0) {
+            total = total + venta;
+            cantidadVentas++;
+        }
+
+    } while (venta != 0);
 }
 public static void ejercicio7(){
     System.out.println("Ejercicio 7");
