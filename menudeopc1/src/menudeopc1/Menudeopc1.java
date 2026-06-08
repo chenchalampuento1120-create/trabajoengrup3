@@ -175,6 +175,11 @@ public static void ejercicio8(){
     int numero;
 
     System.out.println("=== TABLA DE MULTIPLICAR ===");
+
+    do {
+
+        System.out.print("Ingrese un numero positivo: ");
+        numero = leer.nextInt();
 }
 public static void ejercicio9(){
     System.out.println("Ejercicio 9");
