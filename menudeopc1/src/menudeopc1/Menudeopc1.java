@@ -26,7 +26,7 @@ public class Menudeopc1 {
          System.out.println("3. validar nota entre 0 y 10");
          System.out.println("4. cajero automatico");
          System.out.println("5. contar pares e impares");
-         System.out.println("6. ventas dirias");
+         System.out.println("6. ventas diarias");
          System.out.println("7. numeros hasta negativos");
          System.out.println("8. tabla de multiplicar");
          System.out.println("9. factorial");
@@ -186,12 +186,14 @@ public static void ejercicio6(){
     
     
 }
+//Numeros hasta negativos
 public static void ejercicio7(){
     Scanner leer = new Scanner(System.in);
 
     int numero;
     int contadornumeros = 0;
 
+    System.out.println("===REGISTRO DE NUMEROS===");
     do {
 
         System.out.println("Digite un numero positivo:");
@@ -213,7 +215,7 @@ public static void ejercicio8(){
 
     int numero;
 
-    System.out.println("--- TABLA DEL Numero --");
+    System.out.println("--- TABLA DEL NUMERO ---");
 
     do {
 
@@ -226,7 +228,7 @@ public static void ejercicio8(){
 
     } while (numero <= 0);
 
-        System.out.println("\nTabla del " + numero);
+        System.out.println("Tabla del " + numero);
 
     for (int i = 1; i <= 20; i++) {
 
