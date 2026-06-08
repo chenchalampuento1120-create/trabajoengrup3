@@ -360,11 +360,12 @@ public static void ejercicio15(){
         if (contador==2){
         System.out.println("El numero es primo");
     }else {
+            System.out.println("El numero no es primo");
         
- }
+     }
+  }
 }
-}
-        
+     //con eso finalizamos los 15 ejercicios gracias,amor y paz   
         
            
  
