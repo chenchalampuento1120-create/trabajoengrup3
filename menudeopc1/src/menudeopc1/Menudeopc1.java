@@ -352,8 +352,13 @@ public static void ejercicio15(){
     Scanner sc = new Scanner(System.in); 
  // Usamos el mismo nombre
     int num=sc.nextInt();
-}
-
+    int contador=0;
+    for (int i = 1; i <= num; i++) {
+        if (num %i == 0) 
+           
+ 
+        
+   
      
      
 
