@@ -232,7 +232,7 @@ public static void ejercicio13(){
     
         Scanner entrada = new Scanner(System.in);
 
-                 iint numero, mayor, menor;
+                     int numero, mayor, menor;
 
         System.out.print("Ingrese el número 1: ");
         numero = entrada.nextInt();
@@ -257,7 +257,7 @@ public static void ejercicio13(){
         System.out.println("El número menor es: " + menor);
 
         entrada.close();
-
+    }
 
 
         
