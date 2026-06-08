@@ -266,8 +266,9 @@ public static void ejercicio14(){
 
 public static void ejercicio15(){
     System.out.println("ejercicio 15");
-    Scanner leer = new Scanner(System.in);
+     Scanner leer = new Scanner(System.in);
 
+        int numero;
     
     
     
