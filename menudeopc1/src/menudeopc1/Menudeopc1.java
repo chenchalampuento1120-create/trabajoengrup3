@@ -148,10 +148,10 @@ public static void ejercicio6(){
 
 public static void ejercicio7(){
     System.out.println("Ejercicio 7");
-    
-    
-    
-    
+    Scanner leer = new Scanner(System.in);
+
+    int numero;
+    int contador = 0;
 }
 public static void ejercicio8(){
     System.out.println("Ejercico 8");
