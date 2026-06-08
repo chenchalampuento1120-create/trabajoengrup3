@@ -354,7 +354,18 @@ public static void ejercicio15(){
     int num=sc.nextInt();
     int contador=0;
     for (int i = 1; i <= num; i++) {
-        if (num %i == 0) 
+        if (num %i == 0) {
+            contador++;
+        }
+        if (contador==2){
+        System.out.println("El numero es primo");
+    }else {
+        
+ }
+}
+}
+        
+        
            
  
         
