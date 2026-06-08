@@ -236,6 +236,8 @@ public static void ejercicio13(){
         System.out.print("Ingrese el número 1: ");
         numero = entrada.nextInt();
         
+        mayor = numero;
+        
 
         
     
