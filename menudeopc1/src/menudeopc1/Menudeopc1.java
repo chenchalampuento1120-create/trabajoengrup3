@@ -114,8 +114,13 @@ public static void ejercicio5(){
         }
 
     } while (numero != 0);
+
+    System.out.println("Cantidad de pares: " + pares);
+    System.out.println("Cantidad de impares: " + impares);
+
     
 }
+
 public static void ejercicio6(){
     System.out.println("Ejercicio 6");
     
