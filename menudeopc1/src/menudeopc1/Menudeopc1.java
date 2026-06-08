@@ -185,6 +185,11 @@ public static void ejercicio8(){
             System.out.println("Error: ingrese un numero positivo");
         }
 
+    } while (numero <= 0);
+
+        System.out.println("\nTabla del " + numero);
+
+    for (int i = 1; i <= 20; i++) {
 }
 public static void ejercicio9(){
     System.out.println("Ejercicio 9");
