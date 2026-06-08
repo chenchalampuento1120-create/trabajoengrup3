@@ -190,7 +190,13 @@ public static void ejercicio8(){
         System.out.println("\nTabla del " + numero);
 
     for (int i = 1; i <= 20; i++) {
+
+        int resultado = numero * i;
+
+        System.out.println(numero + " x " + i + " = " + resultado);
+    }
 }
+
 public static void ejercicio9(){
     System.out.println("Ejercicio 9");
     System.out.println("Ingrese un numero:");
