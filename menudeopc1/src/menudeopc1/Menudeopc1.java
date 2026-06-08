@@ -284,10 +284,11 @@ public static void ejercicio11(){
     for (int i = 1; i <= 20; i++) {
         System.out.println("Nota estudiante"+i+":");
         suma+=sc.nextDouble();
+    }
 // Calcular promedio general del curso    
         double promedio = suma / 20;
     System.out.println("Promedio: " + promedio);
-    }
+    
   }
 // generar  secuencia fibonacci
 public static void ejercicio12(){
@@ -332,6 +333,7 @@ public static void ejercicio13(){
             System.out.println("El número menor es: " + menor);
         }
     }
+
 public static void ejercicio14(){
     System.out.println("ejercicio 14");
             int suma = 0;
@@ -341,7 +343,7 @@ public static void ejercicio14(){
         }
 
         System.out.println("La suma de los números pares entre 1 y 200 es: " + suma);
-    }
+    
 }
     
 
@@ -354,18 +356,21 @@ public static void ejercicio15(){
     int num=sc.nextInt();
     int contador=0;
     for (int i = 1; i <= num; i++) {
-        if (num %i == 0) {
-            contador++;
+    if (num % i == 0) {
+        contador++;
         }
-        if (contador==2){
+    }
+
+    if (contador == 2) {
         System.out.println("El numero es primo");
-    }else {
-            System.out.println("El numero no es primo");
-        
-     }
-  }
+    } else {
+        System.out.println("El numero no es primo");
+    }
 }
-     //con eso finalizamos los 15 ejercicios gracias,amor y paz   
+}
+     
+
+//con eso finalizamos los 15 ejercicios gracias,amor y paz   
         
            
  
