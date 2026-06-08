@@ -170,9 +170,11 @@ public static void ejercicio7(){
 
 public static void ejercicio8(){
     System.out.println("Ejercico 8");
-    
-    
-    
+    Scanner leer = new Scanner(System.in);
+
+    int numero;
+
+    System.out.println("=== TABLA DE MULTIPLICAR ===");
 }
 public static void ejercicio9(){
     System.out.println("Ejercicio 9");
