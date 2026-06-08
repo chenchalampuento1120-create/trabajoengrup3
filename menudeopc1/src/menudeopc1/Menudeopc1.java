@@ -249,6 +249,8 @@ public static void ejercicio13(){
             }
 
             if (numero < menor) {
+                menor = numero;
+
 
 
         
