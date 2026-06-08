@@ -135,110 +135,29 @@ public static void ejercicio4(){
 public static void ejercicio5(){
     System.out.println("Ejercicio 5");
     
-    Scanner leer = new Scanner(System.in);
-
-    int numero;
-    int pares = 0;
-    int impares = 0;
-    do {
-
-        System.out.println("Ingrese un numero:");
-        numero = leer.nextInt();
-
-        if (numero != 0) {
-
-            if (numero % 2 == 0) {
-                pares++;
-            } else {
-                impares++;
-            }
-
-        }
-
-    } while (numero != 0);
-
-    System.out.println("Cantidad de pares: " + pares);
-    System.out.println("Cantidad de impares: " + impares);
-
+    
     
 }
-
 public static void ejercicio6(){
     System.out.println("Ejercicio 6");
-
-    Scanner leer = new Scanner(System.in);
-
-    double venta;
-    double total = 0;
-    int cantidadVentas = 0;
-
-    do {
-
-        System.out.println("Ingrese una venta:");
-        venta = leer.nextDouble();
-
-        if (venta != 0) {
-            total = total + venta;
-            cantidadVentas++;
-        }
-
-    } while (venta != 0);
-
-    System.out.println("Total vendido: " + total);
-    System.out.println("Cantidad de ventas: " + cantidadVentas);
+    
+    
+    
+    
 }
-
 public static void ejercicio7(){
     System.out.println("Ejercicio 7");
-    Scanner leer = new Scanner(System.in);
-
-    int numero;
-    int contador = 0;
-
-    do {
-
-        System.out.println("Ingrese un numero:");
-        numero = leer.nextInt();
-
-        if (numero >= 0) {
-            contador++;
-        }
-
-    } while (numero >= 0);
-
-    System.out.println("Se ingresaron " + contador + " numeros positivos.");
-
+    
+    
+    
+    
 }
-
 public static void ejercicio8(){
     System.out.println("Ejercico 8");
-    Scanner leer = new Scanner(System.in);
-
-    int numero;
-
-    System.out.println("=== TABLA DE MULTIPLICAR ===");
-
-    do {
-
-        System.out.print("Ingrese un numero positivo: ");
-        numero = leer.nextInt();
-        
-        if (numero <= 0) {
-            System.out.println("Error: ingrese un numero positivo");
-        }
-
-    } while (numero <= 0);
-
-        System.out.println("\nTabla del " + numero);
-
-    for (int i = 1; i <= 20; i++) {
-
-        int resultado = numero * i;
-
-        System.out.println(numero + " x " + i + " = " + resultado);
-    }
+    
+    
+    
 }
-
 public static void ejercicio9(){
     System.out.println("Ejercicio 9");
     System.out.println("Ingrese un numero para calcular su factorial:");
@@ -336,13 +255,7 @@ public static void ejercicio14(){
     System.out.println("ejercicio 14");
       int suma = 0;
 
-        for (int i = 2; i <= 200; i += 2) {
-            suma += i;
-        }
-
-        System.out.println("La suma de los números pares entre 1 y 200 es: " + suma);
-    }
-}
+       for (int i = 2; i <= 200; i += 2) {
 
     
     
