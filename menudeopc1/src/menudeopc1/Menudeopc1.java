@@ -156,13 +156,13 @@ public static void ejercicio5(){
     System.out.println("Cantidad de impares: " + impares);
 
     
-}
 
+    
+}
 public static void ejercicio6(){
     System.out.println("Ejercicio 6");
 
     Scanner leer = new Scanner(System.in);
-
     double montoventa;
     double total = 0;
     int cantidadVentas = 0;
@@ -182,10 +182,11 @@ public static void ejercicio6(){
     System.out.println("Total vendido: " + total);
     System.out.println("Cantidad de ventas: " + cantidadVentas);
     System.out.println("***-Registro finalizado-***");
+    
+    
+    
 }
-
 public static void ejercicio7(){
-    System.out.println("Ejercicio 7");
     Scanner leer = new Scanner(System.in);
 
     int numero;
@@ -233,8 +234,17 @@ public static void ejercicio8(){
 
         System.out.println(numero + " x " + i + " = " + resultado);
     }
+    
+    
+    
+    
 }
-
+public static void ejercicio8(){
+    System.out.println("Ejercico 8");
+    
+    
+    
+}
 public static void ejercicio9(){
     System.out.println("Ejercicio 9");
     System.out.println("Ingrese un numero para calcular su factorial:");
@@ -306,60 +316,69 @@ public static void ejercicio12(){
         
     }
 public static void ejercicio13(){
-    
-        Scanner entrada = new Scanner(System.in);
-
-                     int numero, mayor, menor;
-
-        System.out.print("Ingrese el número 1: ");
-        numero = entrada.nextInt();
-
-        mayor = numero;
-        menor = numero;
-
-        for (int i = 2; i <= 10; i++) {
-            System.out.print("Ingrese el número " + i + ": ");
+    System.out.println("ejercicio 13");
+    try (Scanner entrada = new Scanner(System.in)) {
+            int numero, mayor, menor;
+            System.out.print("Ingrese el número 1: ");
             numero = entrada.nextInt();
+            mayor = numero;
+            menor = numero;
+            for (int i = 2; i <= 10; i++) {
+                System.out.print("Ingrese el número " + i + ": ");
+                numero = entrada.nextInt();
+                
+                if (numero > mayor) {
+                    mayor = numero;
+                }
+                
+                if (numero < menor) {
+                    menor = numero;
+                }
+            }   System.out.println("\nEl número mayor es: " + mayor);
+            System.out.println("El número menor es: " + menor);
+        }
+    }
+public static void ejercicio14(){
+    System.out.println("ejercicio 14");
+            int suma = 0;
 
-            if (numero > mayor) {
-                mayor = numero;
-            }
+        for (int i = 2; i <= 200; i += 2) {
+            suma += i;
+        }
 
-            if (numero < menor) {
-                menor = numero;
+        System.out.println("La suma de los números pares entre 1 y 200 es: " + suma);
+    }
+}
+    
+
+public static void ejercicio15(){
+    System.out.println("ejercicio 15");
+        Scanner leer = new Scanner(System.in);
+
+        int numero;
+        boolean primo = true;
+
+        System.out.print("Ingrese un número entero: ");
+        numero = leer.nextInt();
+
+        if (numero <= 1) {
+            primo = false;
+        } else {
+            for (int i = 2; i < numero; i++) {
+                if (numero % i == 0) {
+                    primo = false;
+                    break;
+                }
             }
         }
 
-        System.out.println("\nEl número mayor es: " + mayor);
-        System.out.println("El número menor es: " + menor);
-
-        entrada.close();
+        if (primo) {
+            System.out.println("El número " + numero + " es primo.");
+        } else {
+            System.out.println("El número " + numero + " no es primo.");
+        }
     }
 
-
-        
-
-        
-    
-
- public static void ejercicio14(){
-    System.out.println("ejercicio 14");
-    
-    
-    
-}
-public static void ejercicio15(){
-    System.out.println("ejercicio 15");
-    
-    
-    
-}
-    
-    
-    
-    
-    
-}
     
      
 
