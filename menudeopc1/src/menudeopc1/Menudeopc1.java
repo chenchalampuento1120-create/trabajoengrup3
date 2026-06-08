@@ -233,6 +233,8 @@ public static void ejercicio13(){
         Scanner entrada = new Scanner(System.in);
 
         int numero, mayor, menor;
+        System.out.print("Ingrese el número 1: ");
+        
 
         
     
