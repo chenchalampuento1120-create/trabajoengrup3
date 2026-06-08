@@ -158,6 +158,10 @@ public static void ejercicio7(){
         System.out.println("Ingrese un numero:");
         numero = leer.nextInt();
 
+        if (numero >= 0) {
+            contador++;
+        }
+
 }
 public static void ejercicio8(){
     System.out.println("Ejercico 8");
