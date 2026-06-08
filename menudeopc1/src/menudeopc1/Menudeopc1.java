@@ -240,6 +240,8 @@ public static void ejercicio13(){
         menor = numero;
         
         for (int i = 2; i <= 10; i++) {
+                        System.out.print("Ingrese el número " + i + ": ");
+        }
         
 
         
