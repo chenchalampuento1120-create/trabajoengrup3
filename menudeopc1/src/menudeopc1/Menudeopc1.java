@@ -379,6 +379,7 @@ public static void ejercicio15(){
         System.out.println("El numero es primo");
     } else {
         System.out.println("El numero no es primo");
+        System.out.println("Grupo 11111111");
     }
 }
 }
